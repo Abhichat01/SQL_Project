@@ -1,0 +1,12 @@
+I have followed the below steps to restore a backup of database using SQL
+Server Management Studio:
+a. Open SQL Server Management Studio and connect to the target
+SQL Server instance
+b. Right-click on the Databases Node and select Restore Database
+c. Select Device and click on the ellipsis.
+d. In the dialog box, select Backup devices, click on Add, navigate to
+the database backup in the file system of the server, select the
+backup, and click on OK.
+e. If needed, change the target location for the data and log files in the
+Files pane
+f. Now, click on OK
